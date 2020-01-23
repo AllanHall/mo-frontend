@@ -3,7 +3,11 @@ import HelloWorld from './components/HelloWorld'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <div className="container">
+        <HelloWorld />
+      </div>
+    )
   }
 }
 
